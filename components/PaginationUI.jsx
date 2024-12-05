@@ -88,6 +88,7 @@ const PaginationUI = () => {
           <ul className={styles.list}>
             {currentPageItems.map((item) => (
               <li key={item.id} className={styles.listItem}>
+                <h2>{item.title}</h2>
                 {item.body}
               </li>
             ))}
