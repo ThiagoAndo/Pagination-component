@@ -11,7 +11,19 @@ What’s exciting is that I’ve made this component available for others to lea
 I’m sharing this component because I believe learning from real-world examples is one of the best ways to grow as a developer. Whether you’re curious about how pagination works or looking to enhance your React projects, I hope this can serve as a valuable resource.
 
 If you’d like to explore the component or discuss best practices for pagination, feel free to connect or drop a comment! Let’s keep learning and growing together. 🚀
+## Screenshot
 
+<br />
+<br />
+
+<p align="center" style="solid 1px red">
+    <img  src="assets/screenshots/Screenshot 2024-12-05 103651.png" alt="Mobile Version Picture">
+     <figcaption>Fig.1 - Home page</figcaption>
+</p>
+<br />
+<br />
+
+## Component
 
 ```js
 import { useState, useReducer, useEffect } from "react";
@@ -154,4 +166,39 @@ export default PaginationUI;
 
 ```
 
+
+
+### Instructions
+
+- Fork this repository
+- Clone your forked repository
+- CD into the project folder
+
+
+
+To install the application:
+
+```shell
+npm install
+```
+
+To start the development server:
+
+```shell
+npm run dev
+```
+
+
+## Author
+
+- Github - [Thiago Ando de Freitas](https://github.com/ThiagoAndo)
+- Personal website - [Portfolio](https://thiago-freitas-portfolio.vercel.app/)
+- Live Website - [Connected World Explore](https://rest-mult-api.netlify.app)
+
+<hr />
+
+ <div style="text-align: center" >
+<h5 style="color:black;">"The impediment to action advances action. What stands in the way becomes the way"</h5>
+<h5 style="color:black;">Marcus Aurelius </h5>
+</div>
 
